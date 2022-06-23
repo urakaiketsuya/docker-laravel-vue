@@ -54,8 +54,28 @@ services:
       - "80:80"
     networks:
       - app-network
+  
+  #Mysql DB
+  mysql:
+    image: mysql:8.0
+    container_name: db
+    restart: unless-stopped
+    tty: true
+    ports:
+        - "33061:3306"
+    environment:
+        MYSQL_ROOT_PASSWORD: secret
+        MYSQL_DATABASE: laravel
+    volumes:
+      - ../mysql:/mysql
+    networks:
+      - app-network
 
 #Docker Networks
 networks:
   app-network:
     driver: bridge
+
+volumes:
+  mysql:
+    driver: local
