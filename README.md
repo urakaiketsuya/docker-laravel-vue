@@ -3,11 +3,11 @@ To get started, cd into the laravel folder and run docker-compose up.
 
 # Getting started
 install docker desktop
-cd into the laravel folder
-run docker-compose up
-run docker-compose exec laravel composer install
-run docker-compose exec laravel composer dump-autoload
-run docker-compose exec laravel php artisan migrate:fresh
+`cd into the laravel folder`
+`run docker-compose up`
+`run docker-compose exec laravel composer install`
+`run docker-compose exec laravel composer dump-autoload`
+`run docker-compose exec laravel php artisan migrate:fresh`
 
 # Routes
 
