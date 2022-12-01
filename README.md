@@ -3,6 +3,7 @@ To get started, cd into the laravel folder and run docker-compose up.
 
 # Getting started
 install docker desktop
+
 `cd into the laravel folder`
 
 `run docker-compose up`
