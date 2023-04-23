@@ -1,7 +1,9 @@
 # docker-laravel-vue
-To get started, cd into the laravel folder and run docker-compose up.
+To get started, run `sh init.sh` in the root directory. 
 
 # Getting started
+For manually starting:
+
 install docker desktop
 
 `cd into the laravel folder`
@@ -13,6 +15,10 @@ install docker desktop
 `run docker-compose exec laravel composer dump-autoload`
 
 `run docker-compose exec laravel php artisan migrate:fresh`
+
+`cd into vue folder`
+
+`run npm install && npm run dev`
 
 # Routes
 
