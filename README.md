@@ -31,3 +31,4 @@ Uncomment the lines in vue.dockerfile comment out what isn't uncommented.
 
 # Note: Windows
  Permissions errors when running docker on windows with laravel happen due to file ownership differences in your project folder vs inside the docker container. I've added a user in docker.compose under laravel to fix this error. No need for chmod or chown commands.
+# sous-chef
